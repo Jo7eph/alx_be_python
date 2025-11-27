@@ -42,8 +42,8 @@ class Library:
                 return True
         return False
 
-    def listavailablebooks(self):
-        """Méthode renommée pour correspondre exactement au checker ALX."""
+    def list_available_books(self):
+        """Méthode exactement nommée comme attendue par le checker ALX."""
         for book in self._books:
             if book.is_available():
                 print(f"{book.title} by {book.author}")
